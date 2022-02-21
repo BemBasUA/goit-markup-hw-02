@@ -2,18 +2,29 @@
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
   --accent-color: #2196f3;
-  --adress-text-color: rgba(255, 255, 255, 0.6);
+  --address-text-color: rgba(255, 255, 255, 0.6);
   --primary-background-color: #e5e5e5;
   --secondary-background-color: #2f303a;
+  --primary-white-color: #ffffff;
 }
 
 body {
-  background-color: var(--primary-background-color);
-  color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/* Header */
+.page-header {
+  background-color: var(--primary-white-color);
 }
 /* Logo */
 .logo {
@@ -26,4 +37,95 @@ body {
 }
 .logo .accent {
   color: var(--accent-color);
+}
+/* Site nav */
+.site-nav .link {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: inherit;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+/* auth-nav */
+.auth-nav .link {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+/* hero */
+.hero {
+  background-color: var(--secondary-background-color);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
+.button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+  cursor: pointer;
+}
+/* features section */
+.features .list-title {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.features .text {
+  line-height: 1.71;
+  color: var(--secondary-text-color);
+}
+/* About us section */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+/* Our team section */
+.our-team {
+  background-color: #f5f4fa;
+}
+.our-team .list-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+.our-team .text {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
+/* Footer */
+.footer {
+  background-color: var(--secondary-background-color);
+}
+.address .link {
+  line-height: 1.71;
+  color: var(--address-text-color);
+}
+.address .map.link {
+  color: var(--primary-white-color);
 }
