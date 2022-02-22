@@ -1,1 +1,1 @@
-https://bembasua.github.io/goit-markup-hw-01/
+https://bembasua.github.io/goit-markup-hw-02/
