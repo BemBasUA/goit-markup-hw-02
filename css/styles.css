@@ -122,10 +122,40 @@ body {
 .footer {
   background-color: var(--secondary-background-color);
 }
+.secondary.logo {
+  color: var(--primary-white-color);
+}
 .address .link {
   line-height: 1.71;
   color: var(--address-text-color);
 }
 .address .map.link {
   color: var(--primary-white-color);
+}
+.address .link:hover,
+.address .link:focus {
+  color: var(--accent-color);
+}
+/* Portfolio */
+.button.secondary {
+  font-weight: 500;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  background-color: #f5f4fa;
+}
+.button.secondary:hover,
+.button.secondary:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+.examples .list-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.examples .text {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--secondary-text-color);
 }
