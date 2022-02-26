@@ -126,6 +126,7 @@ body {
   color: var(--primary-white-color);
 }
 .address .link {
+  font-style: normal;
   line-height: 1.71;
   color: var(--address-text-color);
 }
